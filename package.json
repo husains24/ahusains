@@ -1,5 +1,5 @@
 {
-  "homepage": "https://husains24.github.io/ahusains/",
+  "homepage": "https://husains24.github.io/ahusains",
   "name": "mobile-responsive-app",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "predeploy" :"npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
